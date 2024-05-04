@@ -27,23 +27,6 @@ config :nerves_motd,
     IO.ANSI.color(5),
     """
 
-                    ;kX'
-                  ,0XXXl
-                 xNXNNXX.
-               'KNNXXXXX0.
-              ;XNNNNNNNNN0.
-             ;XNNNNNNNNNNNX:
-            .XNNNXXXXXXXXXXXO.
-            kNNNXNNNNXXNXXNNXNo
-           .NNNXNNNNNXXNNXNNXXXO
-           cXXXNNNNNNXXNNNNNNNNNd
-           lNNNNNNNNNXXNXXXNNNNNK
-           'NNXNXNXXXXXXXXXNNNNNk
-            oNXNXXXXXNXXXNNNNXXX.
-             :KXXXXXXNXXXNNNNXk.
-               ;xXNXXXXNXXX0o.
-                  .',::;,.
-
     """,
     IO.ANSI.reset(),
     """
